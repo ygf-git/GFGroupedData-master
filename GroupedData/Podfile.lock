@@ -1,16 +1,20 @@
 PODS:
+  - GroupedData (0.0.1)
   - PinYin4Objc (1.1.1)
 
 DEPENDENCIES:
+  - GroupedData (~> 0.0.1)
   - PinYin4Objc (~> 1.1.1)
 
 SPEC REPOS:
   trunk:
+    - GroupedData
     - PinYin4Objc
 
 SPEC CHECKSUMS:
+  GroupedData: 06b4543577206c2747caec04142de8c4d9444957
   PinYin4Objc: 3fa9673610368330e2dfb688b1d19a35c3930a78
 
-PODFILE CHECKSUM: 284644006844345068f0e78df78946447b8e40b8
+PODFILE CHECKSUM: 1460e12f9c35c5bd3df0f0260d6ab0999f726d1e
 
 COCOAPODS: 1.10.1

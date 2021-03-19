@@ -13,7 +13,6 @@
 		59CBAE9726034E4600F0FB2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CBAE9526034E4600F0FB2A /* LaunchScreen.storyboard */; };
 		59CBAE9A26034E4600F0FB2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CBAE9926034E4600F0FB2A /* main.m */; };
 		59CBAEA8260359BC00F0FB2A /* PhoneContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CBAEA6260359BC00F0FB2A /* PhoneContact.m */; };
-		59CBAEB526036EEC00F0FB2A /* GroupData.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CBAEB326036EEC00F0FB2A /* GroupData.m */; };
 		59CBAEC9260434CC00F0FB2A /* PinyinConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CBAEC5260434CC00F0FB2A /* PinyinConverter.m */; };
 		A45ED471E8776E1495DCD979 /* libPods-GroupedData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D6EC7ABCFB6916D5EC740 /* libPods-GroupedData.a */; };
 /* End PBXBuildFile section */
@@ -30,9 +29,6 @@
 		59CBAE9926034E4600F0FB2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59CBAEA6260359BC00F0FB2A /* PhoneContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneContact.m; sourceTree = "<group>"; };
 		59CBAEA7260359BC00F0FB2A /* PhoneContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneContact.h; sourceTree = "<group>"; };
-		59CBAEB326036EEC00F0FB2A /* GroupData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupData.m; sourceTree = "<group>"; };
-		59CBAEB426036EEC00F0FB2A /* GroupData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupData.h; sourceTree = "<group>"; };
-		59CBAEB726036F0B00F0FB2A /* BaseContactProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseContactProtocol.h; sourceTree = "<group>"; };
 		59CBAEC5260434CC00F0FB2A /* PinyinConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinConverter.m; sourceTree = "<group>"; };
 		59CBAEC7260434CC00F0FB2A /* PinyinConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinConverter.h; sourceTree = "<group>"; };
 		A533AC941B87CD548081457B /* Pods-GroupedData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupedData.release.xcconfig"; path = "Target Support Files/Pods-GroupedData/Pods-GroupedData.release.xcconfig"; sourceTree = "<group>"; };
@@ -79,7 +75,6 @@
 				59CBAE8E26034E4400F0FB2A /* ViewController.m */,
 				59CBAEA7260359BC00F0FB2A /* PhoneContact.h */,
 				59CBAEA6260359BC00F0FB2A /* PhoneContact.m */,
-				59CBAEB226036EEC00F0FB2A /* GroupData */,
 				59CBAEC4260434CC00F0FB2A /* Spelling */,
 				59CBAE9326034E4600F0FB2A /* Assets.xcassets */,
 				59CBAE9526034E4600F0FB2A /* LaunchScreen.storyboard */,
@@ -95,16 +90,6 @@
 				FC4D6EC7ABCFB6916D5EC740 /* libPods-GroupedData.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		59CBAEB226036EEC00F0FB2A /* GroupData */ = {
-			isa = PBXGroup;
-			children = (
-				59CBAEB426036EEC00F0FB2A /* GroupData.h */,
-				59CBAEB326036EEC00F0FB2A /* GroupData.m */,
-				59CBAEB726036F0B00F0FB2A /* BaseContactProtocol.h */,
-			);
-			path = GroupData;
 			sourceTree = "<group>";
 		};
 		59CBAEC4260434CC00F0FB2A /* Spelling */ = {
@@ -240,7 +225,6 @@
 				59CBAEC9260434CC00F0FB2A /* PinyinConverter.m in Sources */,
 				59CBAE8F26034E4400F0FB2A /* ViewController.m in Sources */,
 				59CBAE8926034E4400F0FB2A /* AppDelegate.m in Sources */,
-				59CBAEB526036EEC00F0FB2A /* GroupData.m in Sources */,
 				59CBAE9A26034E4600F0FB2A /* main.m in Sources */,
 				59CBAEA8260359BC00F0FB2A /* PhoneContact.m in Sources */,
 			);
@@ -311,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -364,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -382,7 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5BHZ9VK49;
 				INFOPLIST_FILE = "$(SRCROOT)/GroupedData/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -404,7 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5BHZ9VK49;
 				INFOPLIST_FILE = "$(SRCROOT)/GroupedData/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,5 +1,7 @@
 # GroupedData - 全网最好用的通讯录联系人排序算法，支持多语言索引排序,接入简单方便无耦合，只需Mode遵守Protocol即可实现排序（pod 更新至 0.0.1）
 
+![索引.GIF](https://upload-images.jianshu.io/upload_images/14803664-843da8f83d0c3953.GIF?imageMogr2/auto-orient/strip)
+
 用法
 ==============
 

@@ -1,0 +1,13 @@
+inhibit_all_warnings!
+
+install! 'cocoapods', :deterministic_uuids => false
+platform :ios, '11.0'
+
+def sharedPods
+    pod 'PinYin4Objc', '~> 1.1.1'
+end
+
+target 'GroupedData' do
+  sharedPods 
+end
+
